@@ -9,6 +9,5 @@ public class OrderFood {
 		chef.cookFood( order );
 		kitchen.finishCooking();
 		waiter.deliverFood(kitchen, order);
-		
 	}
 }
